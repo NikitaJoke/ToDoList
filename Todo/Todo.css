@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&family=Ubuntu&display=swap');ul{
+    list-style-type: none;
+}
+body{
+    /* background-color: rgb(255, 244, 245); */
+    background-image: url(s7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+.container{
+     display: flex;
+   
+   /* margin-top: 10px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    min-width: 800px;
+    position: absolute;
+    min-height: 560;
+    transform: translate(-50%,-50%);
+    border:solid  black 1px;
+}
+.list{
+    padding: 10px;
+    margin: 5px;
+    width: 655px;
+}
+li{
+    margin: 5px;
+    padding: 5px;
+    border: solid 1px rgb(232, 230, 230);
+    border-radius: 10px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.form-control{
+    width: 500px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.btn{
+    padding: 10px;
+    margin-left: 10px;
+    height: 58px;
+    width: 100px;
+    background-color: rgb(6, 6, 51)!important;
+}
+.temp{
+    display: flex;
+    gap: 30px;
+}
+.name{
+    color: rgb(7, 7, 45);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+
